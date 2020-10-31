@@ -1,0 +1,20 @@
+{
+  "name": "random-notice-discord-bot",
+  "description": "A Discord bot who sends random notifications on call",
+  "version": "0.0.1",
+  "private": false,
+  "license": "MIT",
+  "author": "Saleck",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "main": "index.js",
+  "keywords": [
+    "discord",
+    "bot",
+    "saleck"
+  ],
+  "dependencies": {
+    "discord.js": "^12.3.1"
+  }
+}
