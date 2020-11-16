@@ -18,7 +18,7 @@ module.exports = {
             message.reply('I need two numbers! (in minutes)');
         }else{
             var miliseconds = getRandomInt(args[0], args[1]);
-            message.reply('Reminder has been set between' + args[0] + ' and ' + args[1] + 'minutes');
+            message.reply('Reminder has been set between ' + args[0] + ' and ' + args[1] + ' minutes');
             setTimeout(() => {
                 message.reply('Time\'s up!');
             }, miliseconds * 1000 * 60 );
